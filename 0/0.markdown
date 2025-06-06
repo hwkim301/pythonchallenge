@@ -33,19 +33,26 @@ Python has many ways to calculate `2**38`
 1. Using the ** operator 
 You can directly use ** to calcuate powers of numbers. 
 
-```python print(2**38)``` would give you the answer 
+```python
+print(2**38)
+```
+would give you the answer 
 
 2. Using the bit shift operator 
 Python provides bit shifting operators.
-That would be another optiion 
+That would be another option.
 
-```python print(2<<37)```
+```python
+print(2<<37)
+```
 
 3. Using the pow() 
 Python provides the built-in [pow](https://docs.python.org/3/library/functions.html#pow) to calculate 
 powers of nubmers. The pow function also let's you calculate the modular as well. 
 
-```python print(pow(2,38))```
+```python 
+print(pow(2,38))
+```
 
 Calculating `2**38` gives me 274877906944. 
-When I change the URL from (http://www.pythonchallenge.com/pc/def/0.html) to (http://www.pythonchallenge.com/pc/def/274877906944.html) it moves onto level1.
+When I change the URL from (http://www.pythonchallenge.com/pc/def/0.html) to (http://www.pythonchallenge.com/pc/def/274877906944.html) changes the url and level1 pops up.
