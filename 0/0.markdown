@@ -16,10 +16,10 @@ The Professor used [this book](https://www.amazon.com/Get-Programming-Learn-code
 ## Solving level0 
 
 The title for level0 is warming up 
-You can check the ![title](/images/warming_up.png) by looking at the tab where you opened the pythonchallenge problem.
+You can check the [title](/images/warming_up.png) by looking at the tab where you opened the pythonchallenge problem.
 From the title I can guess that this level shouldn't be that hard.
 
-Level0 has a ![picture](/images/0.png) of a old computer.
+Level0 has a [picture](/images/0.png) of a old computer.
 On the moniter there is a yellow rectangle with `2**38` written on it. 
 Below the image of the computer there is a hint that tells you to change the URL address. 
 With all the information it looks like I should use `2**38` and change the URL.
