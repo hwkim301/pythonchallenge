@@ -6,9 +6,9 @@ while True:
     nothing = res.text.split(" ")[-1]
     print(res.text)
 
-    if 'Yes.' in res.text:
-        nothing=16044//2
-        continue 
+    if "Yes." in res.text:
+        nothing = 16044 // 2
+        continue
 
-    elif 'next nothing is' not in res.text:
-        break  
+    elif "next nothing is" not in res.text:
+        break
