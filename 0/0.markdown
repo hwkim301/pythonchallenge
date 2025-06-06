@@ -1,4 +1,4 @@
-# 
+# What is Python Challenge ?
 Python Challenge is a fun way to learn Python. 
 There are currently 33 levels. 
 IMHO Python Challenge is not for beginners who have never coded in Python before or have little experience in Python. 
@@ -16,9 +16,8 @@ The Proffessor used [this book](https://www.amazon.com/Get-Programming-Learn-cod
 ## 
 Now let's actually solve level0
 
+###
 The title for level0 is warming up 
-
-## 
 You can check the ![title](/images/warming_up.png) by looking at the tab where you opened the pythonchallenge problem.
 From the title I can guess that this level shouldn't be that hard.
 
