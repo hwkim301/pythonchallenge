@@ -1,0 +1,50 @@
+# 
+Python Challenge is a fun way to learn Python. 
+There are currently 33 levels. 
+IMHO Python Challenge is not for beginners who have never coded in Python before or have little experience in Python. 
+It's for people who have coded in Python but just aren't super good. 
+So if it's your first time writting in Python code I wouldn't try to solve these problems.
+Reading O'reilly books or learning from online courses would help you more. 
+For Courses I recommend ![this course](https://www.youtube.com/watch?v=xAcTmDO6NTI&list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB) from MIT OCW
+the course explains Python in a pretty detailed manner for beginnners. The Proffessor used ![this book](https://www.amazon.com/Get-Programming-Learn-code-Python/dp/1617293784) for her lecture's in 2016. Not sure which textbook she's using in 2022 btw. 
+
+
+## 
+Now let's actually solve level0
+
+The title for level0 is warming up 
+
+## 
+You can check the ![title](/home/pythonchallenge/warming_up.png) by looking at the tab where you opened the pythonchallenge problem.
+From the title I can guess that this level shouldn't be that hard.
+
+Level0 has a ![picture](/home/pythonchallenge/0.png) of a old computer.
+On the moniter there is a yellow rectangle with `2**38` written on it. 
+Below the image of the computer there is a hint that tells you to change the URL address. 
+With all the information it looks like I should use `2**38` and change the URL.
+
+[This] (http://www.pythonchallenge.com/pc/def/0.html) is our current URL.
+If you look closely there is a number in the URL 0.html. 
+Calculating `2**38` and replacing it with 0 is likely to solve level0. 
+
+Python has many ways to calculate `2**38`
+
+1. Using the ** operator 
+You can directly use ** to calcuate powers of numbers. 
+
+`print(2**38)` would give you the answer 
+
+2. Using the bit shift operator 
+Python provides bit shifting operators.
+That would be another optiion 
+
+`print(2<<37)`
+
+3. Using the pow() 
+Python provides the built-in [pow](https://docs.python.org/3/library/functions.html#pow) to calculate 
+powers of nubmers. The pow function also let's you calculate the modular as well. 
+
+`print(pow(2,38))`
+
+Calculating `2**38` gives me 274877906944. 
+When I change the URL from (http://www.pythonchallenge.com/pc/def/0.html) to (http://www.pythonchallenge.com/pc/def/274877906944.html) we move onto level1.
