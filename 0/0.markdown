@@ -7,10 +7,10 @@ It's for people who have coded in Python but just aren't super good.
 So if it's your first time writting in Python code I wouldn't try to solve these problems.
 Reading O'reilly books or learning from online courses would help you more. 
 
-For Courses I recommend ![this course](https://www.youtube.com/watch?v=xAcTmDO6NTI&list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB) from MIT OCW.
+For Courses I recommend [this course](https://www.youtube.com/watch?v=xAcTmDO6NTI&list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB) from MIT OCW.
 
 the course explains Python in a pretty detailed manner for beginnners. 
-The Proffessor used ![this book](https://www.amazon.com/Get-Programming-Learn-code-Python/dp/1617293784) for her lecture's in 2016. Not sure which textbook she's using in 2022 btw. 
+The Proffessor used [this book](https://www.amazon.com/Get-Programming-Learn-code-Python/dp/1617293784) for her lecture's in 2016. Not sure which textbook she's using in 2022 btw. 
 
 
 ## 
