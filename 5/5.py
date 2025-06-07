@@ -4,10 +4,10 @@ import pickle
 res = requests.get("http://www.pythonchallenge.com/pc/def/banner.p")
 mess = res.content
 
-with open("banner.p", "wb") as f:
+with open("banner", "wb") as f:
     f.write(mess)
 
-with open("banner.p", "rb") as f:
+with open("banner", "rb") as f:
     data = pickle.load(f)
 
 print(data)
