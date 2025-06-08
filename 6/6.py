@@ -13,5 +13,5 @@ while True:
     with zipfile.ZipFile("channel.zip", "r") as myzip:
         print(myzip.getinfo(f"{number}.txt").comment.decode('utf-8'))
         comments.append(myzip.getinfo(f"{number}.txt").comment.decode('utf-8'))
-print(comments)
+# print(comments)
 print(*comments)
