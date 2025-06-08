@@ -10,7 +10,8 @@ while True:
     print(number)
     if number == "comments.":
         break
-    with zipfile.ZipFile("channel.zip", "r") as zipf:
-        print(zipf.getinfo(f"{number}.txt").comment.decode())
-        comments.append(zipf.getinfo(f"{number}.txt").comment.decode())
+    with zipfile.ZipFile("channel.zip", "r") as myzip:
+        print(myzip.getinfo(f"{number}.txt").comment.decode('utf-8'))
+        comments.append(myzip.getinfo(f"{number}.txt").comment.decode('utf-8'))
+print(comments)
 print(*comments)
