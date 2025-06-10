@@ -6,5 +6,5 @@ res=requests.get("http://www.pythonchallenge.com/pc/return/evil2.gfx", auth=("hu
 print(len(res.content))
 
 for i in range(5):
-    with open(f"{i}.jpg", "wb") as f:
+    with open(f"{i:02d}.jpg", "wb") as f:
         f.write(res.content[i::5])
