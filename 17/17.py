@@ -34,3 +34,6 @@ conn = xmlrpc.client.ServerProxy("http://www.pythonchallenge.com/pc/phonebook.ph
 print(conn.system.listMethods()) # ['phone', 'system.listMethods', 'system.methodHelp', 'system.methodSignature', 'system.multicall', 'system.getCapabilities
 
 print(conn.phone("Leopold")) # 555-VIOLIN
+
+res=requests.get("http://www.pythonchallenge.com/pc/stuff/violin.php",cookies={"info":"the flowers are on their way"})
+print(res.text)
