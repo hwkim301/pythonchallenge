@@ -18,5 +18,5 @@ with open("india.wav","wb") as file:
         mess=f.read()
     file.write(b64decode(mess))
 
-# data,samplerate=soundfile.read("india.wav")
-# soundfile.write("new.wav",data,samplerate,endian="big")
+data,samplerate=soundfile.read("india.wav")
+soundfile.write("new.wav",data,samplerate,endian="big")
