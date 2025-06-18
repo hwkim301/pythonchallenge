@@ -5,23 +5,22 @@ import bz2
 with open("package.pack", "rb") as f:
     content = f.read()
 
-logs=""
-
+copper=""
 while True:
     try:
         data = zlib.decompress(content)
         content = data
-        print("z",end=" ")
+        copper+=" "
     except zlib.error:
         try:
             data = bz2.decompress(content)
             content = data
-            print("b",end=" ")
+            copper+="#"
         except OSError:
             try:
                 data = zlib.decompress(content[::-1])
                 content = data
-                print("r",end=" ")
+                copper+="\n"
             except zlib.error:
                 try:
                     data = bz2.decompress(content[::-1])
@@ -29,3 +28,4 @@ while True:
                 except OSError:
                     break
 
+print(copper)
