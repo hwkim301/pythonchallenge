@@ -6,9 +6,10 @@ img = Image.open("beer2.png")
 print(img.mode)  # L
 print(img.size)  # (138,138)
 
-pixel_data = list(img.getdata())
+pixels = list(img.getdata())
+print(pixels)
 
-pixel_counts = Counter(pixel_data)
+pixel_counts = Counter(pixels)
 
 sorted_brightness_levels = sorted(pixel_counts.keys())
 
@@ -27,7 +28,7 @@ for level in sorted_brightness_levels:
 
         # 5. Only create the image data when a match is found
         # This is much more efficient than doing it in every loop.
-        img_data = [p for p in pixel_data if p <= level]
+        img_data = [p for p in pixels if p <= level]
 
         new_img = Image.new(img.mode, (n_int, n_int))
         new_img.putdata(img_data)
