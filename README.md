@@ -54,7 +54,7 @@ Posting solutions that I don't understand a 100% makes me feel uncomfortable.
 
 [**Level 15: whom?**](/15/15.md) [Code](/15/15.py)
 
-[**<s>Level 16: let me get this straight</s>**] (incomplete)
+**<s>Level 16: let me get this straight</s>** (incomplete)
 
 [**Level 17: eat?**](/17/17.md) [Code](/17/17.py)
 
@@ -66,7 +66,7 @@ Posting solutions that I don't understand a 100% makes me feel uncomfortable.
 
 [**Level 21: zip file**](/21/21.md) [Code](/21/21.py)
 
-[**<s>Level 22: emulate</s>**]  (incomplete)
+**<s>Level 22: emulate</s>**  (incomplete)
 
 [**Level 23: what is this**](/23/23.md) [Code](/23/23.py)
 
@@ -74,9 +74,9 @@ Posting solutions that I don't understand a 100% makes me feel uncomfortable.
 
 [**Level 25: imagine how they sound**](/25/25.md) [Code](/25/25.py)
 
-[**<s>Level 26: be a man - apoligize!</s>**]  (incomplete)
+**<s>Level 26: be a man - apoligize!</s>** (incomplete)
 
-[**<s>Level 27: between the tables</s>**]  (incomplete)
+**<s>Level 27: between the tables</s>**  (incomplete)
 
 [**Level 28: many pairs ring-ring**](/28/28.md) [Code](/28/28.py)
 
@@ -84,8 +84,8 @@ Posting solutions that I don't understand a 100% makes me feel uncomfortable.
 
 [**Level 30: relax your on 30**](/30/30.py) (almost complete)
 
-[**<s>Level 31: Where am I ?</s>**] (incomplete)
+**<s>Level 31: Where am I ?</s>** (incomplete)
 
-[**<s>Level 32: etch-a-scetch</s>**] (incomplete)
+**<s>Level 32: etch-a-scetch</s>** (incomplete)
 
-[**<s>Level 33: 33 bottles of beer on the wall</s>**] (incomplete)
+**<s>Level 33: 33 bottles of beer on the wall</s>** (incomplete)
