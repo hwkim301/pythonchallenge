@@ -50,7 +50,7 @@ Posting solutions that I don't understand a 100% makes me feel uncomfortable.
 
 [**Level 13: call him**](/13/13.md) [Code](/13/13.py)
 
-[**<s>Level 14: walk around</s>**](/14/14.md) [Code](/14/14.py) (somewhat incomplete)
+[**Level 14: walk around**](/14/14.md) [Code](/14/14.py) (somewhat incomplete)
 
 [**Level 15: whom?**](/15/15.md) [Code](/15/15.py)
 
