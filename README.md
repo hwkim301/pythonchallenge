@@ -70,7 +70,7 @@ Posting solutions that I don't understand a 100% makes me feel uncomfortable.
 
 [**Level 23: what is this**](/23/23.md) [Code](/23/23.py)
 
-[**<s>Level 24: from top to bottom</s>**]  (incomplete)
+**<s>Level 24: from top to bottom</s>**  (incomplete)
 
 [**Level 25: imagine how they sound**](/25/25.md) [Code](/25/25.py)
 
